@@ -1,6 +1,21 @@
 <?php 
 
 	return [
+		'tasks/add' => 
+		[
+			'controller' => 'tasks',
+			'action' => 'add',
+		],
+		'tasks/delete' => 
+		[
+			'controller' => 'tasks',
+			'action' => 'delete',
+		],
+		'tasks/ready' => 
+		[
+			'controller' => 'tasks',
+			'action' => 'ready',
+		],
 		'account/logout' =>
 		[
 			'controller' => 'account',
@@ -15,6 +30,16 @@
 		[
 			'controller' => 'tasks',
 			'action' => 'show',
+		],
+		'tasks/removeAll' => 
+		[
+			'controller' => 'tasks',
+			'action' => 'removeAll',
+		],
+		'tasks/readyAll' => 
+		[
+			'controller' => 'tasks',
+			'action' => 'readyAll',
 		],
 		'' =>
 		[
